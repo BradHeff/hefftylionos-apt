@@ -1,0 +1,7 @@
+alias apt install="pacman -S"
+alias apt remove="pacman -Rs"
+alias apt search="pacman -Ss"
+alias apt upgrade="pacman -Syu"
+alias apt dist-upgrade="pacman -Syu"
+alias apt autoclean="pacman -Scc"
+alias apt autoremove="pacman -Qdtq | pacman -Rs -"
